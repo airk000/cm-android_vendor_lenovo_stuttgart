@@ -14,8 +14,8 @@
 
 PRODUCT_PACKAGES += \
     libfimc \
-    libsecion \
-    libUMP
+    libUMP \
+    libhwconverter
 
 PRODUCT_COPY_FILES += \
     vendor/lenovo/stuttgart/proprietary/system/vendor/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin \
@@ -44,6 +44,10 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/stuttgart/proprietary/system/usr/idc/pixcir-i2c-ts.idc:system/usr/idc/pixcir-i2c-ts.idc \
     vendor/lenovo/stuttgart/proprietary/system/usr/idc/qwerty2.idc:system/usr/idc/qwerty2.idc \
     vendor/lenovo/stuttgart/proprietary/system/usr/idc/ft5x0x_ts.idc:system/usr/idc/ft5x0x_ts.idc \
+    vendor/lenovo/stuttgart/proprietary/system/etc/wifi/bcmdhd_p2p.bin:system/etc/wifi/bcmdhd_p2p.bin \
+    vendor/lenovo/stuttgart/proprietary/system/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
+    vendor/lenovo/stuttgart/proprietary/system/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
+    vendor/lenovo/stuttgart/proprietary/system/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
     vendor/lenovo/stuttgart/proprietary/system/bin/bcm4330.hcd:system/bin/bcm4330.hcd \
     vendor/lenovo/stuttgart/proprietary/system/bin/rild:system/bin/rild \
     vendor/lenovo/stuttgart/proprietary/system/bin/glgps:system/bin/glgps \
@@ -52,21 +56,30 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/stuttgart/proprietary/system/lib/libhwconverter.so:system/lib/libhwconverter.so \
     vendor/lenovo/stuttgart/proprietary/system/lib/libfimg.so:system/lib/libfimg.so \
     vendor/lenovo/stuttgart/proprietary/system/lib/librapid-ril-util.so:system/lib/librapid-ril-util.so \
+    vendor/lenovo/stuttgart/proprietary/system/lib/libSEC_OMX_Core.so:system/lib/libSEC_OMX_Core.so \
+    vendor/lenovo/stuttgart/proprietary/system/lib/libcamera_client.so:system/lib/libcamera_client.so \
     vendor/lenovo/stuttgart/proprietary/system/lib/hw/gps.exynos4.so:system/lib/hw/gps.exynos4.so \
     vendor/lenovo/stuttgart/proprietary/system/lib/hw/lights.smdk4x12.so:system/lib/hw/lights.smdk4x12.so \
     vendor/lenovo/stuttgart/proprietary/system/lib/hw/hwcomposer.exynos4.so:system/lib/hw/hwcomposer.exynos4.so \
-    vendor/lenovo/stuttgart/proprietary/system/lib/hw/audio_policy.smdk4x12.so:system/lib/hw/audio_policy.smdk4x12.so \
-    vendor/lenovo/stuttgart/proprietary/system/lib/hw/audio.primary.smdk4x12.so:system/lib/hw/audio.primary.smdk4x12.so \
     vendor/lenovo/stuttgart/proprietary/system/lib/hw/sensors.exynos4.so:system/lib/hw/sensors.exynos4.so \
     vendor/lenovo/stuttgart/proprietary/system/lib/hw/camera.smdk4x12.so:system/lib/hw/camera.smdk4x12.so \
     vendor/lenovo/stuttgart/proprietary/system/lib/hw/gralloc.smdk4x12.so:system/lib/hw/gralloc.smdk4x12.so \
-    vendor/lenovo/stuttgart/proprietary/system/lib/libreference-ril.so:system/lib/libreference-ril.so \
+    vendor/lenovo/stuttgart/proprietary/system/lib/libSEC_OMX_Resourcemanager.so:system/lib/libSEC_OMX_Resourcemanager.so \
     vendor/lenovo/stuttgart/proprietary/system/lib/libfimc.so:system/lib/libfimc.so \
     vendor/lenovo/stuttgart/proprietary/system/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
     vendor/lenovo/stuttgart/proprietary/system/lib/libLeImageLightness.so:system/lib/libLeImageLightness.so \
+    vendor/lenovo/stuttgart/proprietary/system/lib/omx/libOMX.SEC.M4V.Decoder.so:system/lib/omx/libOMX.SEC.M4V.Decoder.so \
+    vendor/lenovo/stuttgart/proprietary/system/lib/omx/libOMX.SEC.M2V.Decoder.so:system/lib/omx/libOMX.SEC.M2V.Decoder.so \
+    vendor/lenovo/stuttgart/proprietary/system/lib/omx/libOMX.SEC.AVC.Decoder.so:system/lib/omx/libOMX.SEC.AVC.Decoder.so \
+    vendor/lenovo/stuttgart/proprietary/system/lib/omx/libOMX.SEC.M4V.Encoder.so:system/lib/omx/libOMX.SEC.M4V.Encoder.so \
+    vendor/lenovo/stuttgart/proprietary/system/lib/omx/libOMX.SEC.WMV.Decoder.so:system/lib/omx/libOMX.SEC.WMV.Decoder.so \
+    vendor/lenovo/stuttgart/proprietary/system/lib/omx/libOMX.SEC.AVC.Encoder.so:system/lib/omx/libOMX.SEC.AVC.Encoder.so \
     vendor/lenovo/stuttgart/proprietary/system/lib/libMali.so:system/lib/libMali.so \
+    vendor/lenovo/stuttgart/proprietary/system/lib/libion.so:system/lib/libion.so \
+    vendor/lenovo/stuttgart/proprietary/system/lib/modules/bcmdhd.ko:system/lib/modules/bcmdhd.ko \
     vendor/lenovo/stuttgart/proprietary/system/lib/libUMP.so:system/lib/libUMP.so \
     vendor/lenovo/stuttgart/proprietary/system/lib/librapid-ril-core.so:system/lib/librapid-ril-core.so \
     vendor/lenovo/stuttgart/proprietary/system/lib/egl/libGLESv2_mali.so:system/lib/egl/libGLESv2_mali.so \
     vendor/lenovo/stuttgart/proprietary/system/lib/egl/libEGL_mali.so:system/lib/egl/libEGL_mali.so \
-    vendor/lenovo/stuttgart/proprietary/system/lib/egl/libGLESv1_CM_mali.so:system/lib/egl/libGLESv1_CM_mali.so
+    vendor/lenovo/stuttgart/proprietary/system/lib/egl/libGLESv1_CM_mali.so:system/lib/egl/libGLESv1_CM_mali.so \
+    vendor/lenovo/stuttgart/proprietary/system/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so
