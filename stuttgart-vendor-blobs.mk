@@ -46,18 +46,22 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/stuttgart/proprietary/system/usr/idc/ft5x0x_ts.idc:system/usr/idc/ft5x0x_ts.idc \
     vendor/lenovo/stuttgart/proprietary/system/etc/wifi/bcmdhd_p2p.bin:system/etc/wifi/bcmdhd_p2p.bin \
     vendor/lenovo/stuttgart/proprietary/system/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
-    vendor/lenovo/stuttgart/proprietary/system/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
     vendor/lenovo/stuttgart/proprietary/system/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
+    vendor/lenovo/stuttgart/proprietary/system/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
+    vendor/lenovo/stuttgart/proprietary/system/etc/rril/stmd.conf:system/etc/rril/stmd.conf \
+    vendor/lenovo/stuttgart/proprietary/system/etc/rril/repository.txt:system/etc/rril/repository.txt \
     vendor/lenovo/stuttgart/proprietary/system/bin/bcm4330.hcd:system/bin/bcm4330.hcd \
     vendor/lenovo/stuttgart/proprietary/system/bin/rild:system/bin/rild \
     vendor/lenovo/stuttgart/proprietary/system/bin/glgps:system/bin/glgps \
+    vendor/lenovo/stuttgart/proprietary/system/bin/dmesglog.sh:system/bin/dmesglog.sh \
     vendor/lenovo/stuttgart/proprietary/system/bin/hostapd:system/bin/hostapd \
+    vendor/lenovo/stuttgart/proprietary/system/bin/stmd:system/bin/stmd \
+    vendor/lenovo/stuttgart/proprietary/system/lib/libswscaler.so:system/lib/libswscaler.so \
     vendor/lenovo/stuttgart/proprietary/system/lib/libril.so:system/lib/libril.so \
     vendor/lenovo/stuttgart/proprietary/system/lib/libhwconverter.so:system/lib/libhwconverter.so \
     vendor/lenovo/stuttgart/proprietary/system/lib/libfimg.so:system/lib/libfimg.so \
     vendor/lenovo/stuttgart/proprietary/system/lib/librapid-ril-util.so:system/lib/librapid-ril-util.so \
     vendor/lenovo/stuttgart/proprietary/system/lib/libSEC_OMX_Core.so:system/lib/libSEC_OMX_Core.so \
-    vendor/lenovo/stuttgart/proprietary/system/lib/libcamera_client.so:system/lib/libcamera_client.so \
     vendor/lenovo/stuttgart/proprietary/system/lib/hw/gps.exynos4.so:system/lib/hw/gps.exynos4.so \
     vendor/lenovo/stuttgart/proprietary/system/lib/hw/lights.smdk4x12.so:system/lib/hw/lights.smdk4x12.so \
     vendor/lenovo/stuttgart/proprietary/system/lib/hw/hwcomposer.exynos4.so:system/lib/hw/hwcomposer.exynos4.so \
@@ -74,6 +78,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/stuttgart/proprietary/system/lib/omx/libOMX.SEC.M4V.Encoder.so:system/lib/omx/libOMX.SEC.M4V.Encoder.so \
     vendor/lenovo/stuttgart/proprietary/system/lib/omx/libOMX.SEC.WMV.Decoder.so:system/lib/omx/libOMX.SEC.WMV.Decoder.so \
     vendor/lenovo/stuttgart/proprietary/system/lib/omx/libOMX.SEC.AVC.Encoder.so:system/lib/omx/libOMX.SEC.AVC.Encoder.so \
+    vendor/lenovo/stuttgart/proprietary/system/lib/libcamera_client.so:system/lib/libcamera_client.so \
     vendor/lenovo/stuttgart/proprietary/system/lib/libMali.so:system/lib/libMali.so \
     vendor/lenovo/stuttgart/proprietary/system/lib/libion.so:system/lib/libion.so \
     vendor/lenovo/stuttgart/proprietary/system/lib/modules/bcmdhd.ko:system/lib/modules/bcmdhd.ko \
