@@ -39,6 +39,67 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/stuttgart/proprietary/system/usr/keychars/Generic.kcm:system/usr/keychars/Generic.kcm \
     vendor/lenovo/stuttgart/proprietary/system/usr/keychars/qwerty2.kcm:system/usr/keychars/qwerty2.kcm \
     vendor/lenovo/stuttgart/proprietary/system/usr/keychars/qwerty.kcm:system/usr/keychars/qwerty.kcm \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/ymc/param/YMach2_0_HS_2MIC_NB_adc_agc.dat:system/usr/share/ymc/param/YMach2_0_HS_2MIC_NB_adc_agc.dat \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/ymc/param/YMach2_3_REC_1MIC_NB_dng.dat:system/usr/share/ymc/param/YMach2_3_REC_1MIC_NB_dng.dat \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/ymc/param/0_2MICNSOFF_HS_NB.dat:system/usr/share/ymc/param/0_2MICNSOFF_HS_NB.dat \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/ymc/param/Lenovo_S3_HP_effect.dat:system/usr/share/ymc/param/Lenovo_S3_HP_effect.dat \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/ymc/param/3_1MIC_REC_WB.dat:system/usr/share/ymc/param/3_1MIC_REC_WB.dat \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/ymc/param/handsfree_off.dat:system/usr/share/ymc/param/handsfree_off.dat \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/ymc/param/YMach2_2_REC_2MIC_WB_adc_agc.dat:system/usr/share/ymc/param/YMach2_2_REC_2MIC_WB_adc_agc.dat \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/ymc/param/YMach2_1_HF_1MIC_NB_dng.dat:system/usr/share/ymc/param/YMach2_1_HF_1MIC_NB_dng.dat \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/ymc/param/0_2MIC_HS_NB.dat:system/usr/share/ymc/param/0_2MIC_HS_NB.dat \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/ymc/param/handsfree_2.dat:system/usr/share/ymc/param/handsfree_2.dat \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/ymc/param/dsp_off.dat:system/usr/share/ymc/param/dsp_off.dat \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/ymc/param/4_1MIC_HES_NB.dat:system/usr/share/ymc/param/4_1MIC_HES_NB.dat \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/ymc/param/voice_process/1mic_sample.dat:system/usr/share/ymc/param/voice_process/1mic_sample.dat \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/ymc/param/voice_process/2mic_off.dat:system/usr/share/ymc/param/voice_process/2mic_off.dat \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/ymc/param/voice_process/2mic_sample.dat:system/usr/share/ymc/param/voice_process/2mic_sample.dat \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/ymc/param/voice_process/1mic_off.dat:system/usr/share/ymc/param/voice_process/1mic_off.dat \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/ymc/param/voice_process/voice_process.xml:system/usr/share/ymc/param/voice_process/voice_process.xml \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/ymc/param/YMach2_1_HF_1MIC_NB_pdm_agc.dat:system/usr/share/ymc/param/YMach2_1_HF_1MIC_NB_pdm_agc.dat \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/ymc/param/YMach2_4_HES_1MIC_NB_dng.dat:system/usr/share/ymc/param/YMach2_4_HES_1MIC_NB_dng.dat \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/ymc/param/YMach2_2_REC_2MIC_WB_pdm_agc.dat:system/usr/share/ymc/param/YMach2_2_REC_2MIC_WB_pdm_agc.dat \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/ymc/param/YMach2_0_HS_2MIC_NB_pdm_agc.dat:system/usr/share/ymc/param/YMach2_0_HS_2MIC_NB_pdm_agc.dat \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/ymc/param/3_1MIC_REC_NB.dat:system/usr/share/ymc/param/3_1MIC_REC_NB.dat \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/ymc/param/YMach2_2_REC_2MIC_WB_dng.dat:system/usr/share/ymc/param/YMach2_2_REC_2MIC_WB_dng.dat \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/ymc/param/dng_off.dat:system/usr/share/ymc/param/dng_off.dat \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/ymc/param/YMach2_4_HES_1MIC_NB_adc_agc.dat:system/usr/share/ymc/param/YMach2_4_HES_1MIC_NB_adc_agc.dat \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/ymc/param/YMach2_0_HS_2MIC_NB_dng.dat:system/usr/share/ymc/param/YMach2_0_HS_2MIC_NB_dng.dat \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/ymc/param/post_process/output/HP_Dance.dat:system/usr/share/ymc/param/post_process/output/HP_Dance.dat \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/ymc/param/post_process/output/SP_Dance.dat:system/usr/share/ymc/param/post_process/output/SP_Dance.dat \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/ymc/param/post_process/output/SP_Pop.dat:system/usr/share/ymc/param/post_process/output/SP_Pop.dat \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/ymc/param/post_process/output/SP_JazzBar.dat:system/usr/share/ymc/param/post_process/output/SP_JazzBar.dat \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/ymc/param/post_process/output/output.xml:system/usr/share/ymc/param/post_process/output/output.xml \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/ymc/param/post_process/output/HP_JazzBar.dat:system/usr/share/ymc/param/post_process/output/HP_JazzBar.dat \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/ymc/param/post_process/output/HP_Pop.dat:system/usr/share/ymc/param/post_process/output/HP_Pop.dat \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/ymc/param/post_process/output/dsp_through.dat:system/usr/share/ymc/param/post_process/output/dsp_through.dat \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/ymc/param/Lenovo_S3_SP_effect.dat:system/usr/share/ymc/param/Lenovo_S3_SP_effect.dat \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/ymc/param/YMach2_3_REC_1MIC_NB_adc_agc.dat:system/usr/share/ymc/param/YMach2_3_REC_1MIC_NB_adc_agc.dat \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/ymc/param/1_1MIC_HF_NB.dat:system/usr/share/ymc/param/1_1MIC_HF_NB.dat \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/ymc/param/2_2MIC_REC_WB.dat:system/usr/share/ymc/param/2_2MIC_REC_WB.dat \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/ymc/param/handsfree_1.dat:system/usr/share/ymc/param/handsfree_1.dat \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/ymc/param/YMach2_4_HES_1MIC_NB_pdm_agc.dat:system/usr/share/ymc/param/YMach2_4_HES_1MIC_NB_pdm_agc.dat \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/ymc/param/dsp_through.dat:system/usr/share/ymc/param/dsp_through.dat \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/ymc/param/agc_off.dat:system/usr/share/ymc/param/agc_off.dat \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/ymc/param/YMach2_1_HF_1MIC_NB_adc_agc.dat:system/usr/share/ymc/param/YMach2_1_HF_1MIC_NB_adc_agc.dat \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/ymc/param/YMach2_3_REC_1MIC_NB_pdm_agc.dat:system/usr/share/ymc/param/YMach2_3_REC_1MIC_NB_pdm_agc.dat \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/alsa/cards/aliases.conf:system/usr/share/alsa/cards/aliases.conf \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/alsa/pcm/side.conf:system/usr/share/alsa/pcm/side.conf \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/alsa/pcm/dpl.conf:system/usr/share/alsa/pcm/dpl.conf \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/alsa/pcm/dmix.conf:system/usr/share/alsa/pcm/dmix.conf \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/alsa/pcm/dsnoop.conf:system/usr/share/alsa/pcm/dsnoop.conf \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/alsa/pcm/surround71.conf:system/usr/share/alsa/pcm/surround71.conf \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/alsa/pcm/iec958.conf:system/usr/share/alsa/pcm/iec958.conf \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/alsa/pcm/default.conf:system/usr/share/alsa/pcm/default.conf \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/alsa/pcm/surround41.conf:system/usr/share/alsa/pcm/surround41.conf \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/alsa/pcm/surround51.conf:system/usr/share/alsa/pcm/surround51.conf \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/alsa/pcm/modem.conf:system/usr/share/alsa/pcm/modem.conf \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/alsa/pcm/center_lfe.conf:system/usr/share/alsa/pcm/center_lfe.conf \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/alsa/pcm/rear.conf:system/usr/share/alsa/pcm/rear.conf \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/alsa/pcm/surround40.conf:system/usr/share/alsa/pcm/surround40.conf \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/alsa/pcm/front.conf:system/usr/share/alsa/pcm/front.conf \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/alsa/pcm/surround50.conf:system/usr/share/alsa/pcm/surround50.conf \
+    vendor/lenovo/stuttgart/proprietary/system/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf \
     vendor/lenovo/stuttgart/proprietary/system/usr/idc/atmel-touchscreen.idc:system/usr/idc/atmel-touchscreen.idc \
     vendor/lenovo/stuttgart/proprietary/system/usr/idc/qwerty.idc:system/usr/idc/qwerty.idc \
     vendor/lenovo/stuttgart/proprietary/system/usr/idc/pixcir-i2c-ts.idc:system/usr/idc/pixcir-i2c-ts.idc \
@@ -50,6 +111,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/stuttgart/proprietary/system/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
     vendor/lenovo/stuttgart/proprietary/system/etc/rril/stmd.conf:system/etc/rril/stmd.conf \
     vendor/lenovo/stuttgart/proprietary/system/etc/rril/repository.txt:system/etc/rril/repository.txt \
+    vendor/lenovo/stuttgart/proprietary/system/etc/asound.conf:system/etc/asound.conf \
     vendor/lenovo/stuttgart/proprietary/system/bin/bcm4330.hcd:system/bin/bcm4330.hcd \
     vendor/lenovo/stuttgart/proprietary/system/bin/rild:system/bin/rild \
     vendor/lenovo/stuttgart/proprietary/system/bin/glgps:system/bin/glgps \
@@ -65,11 +127,13 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/stuttgart/proprietary/system/lib/hw/gps.exynos4.so:system/lib/hw/gps.exynos4.so \
     vendor/lenovo/stuttgart/proprietary/system/lib/hw/lights.smdk4x12.so:system/lib/hw/lights.smdk4x12.so \
     vendor/lenovo/stuttgart/proprietary/system/lib/hw/hwcomposer.exynos4.so:system/lib/hw/hwcomposer.exynos4.so \
+    vendor/lenovo/stuttgart/proprietary/system/lib/hw/audio.primary.stuttgart.so:system/lib/hw/audio.primary.stuttgart.so \
     vendor/lenovo/stuttgart/proprietary/system/lib/hw/sensors.exynos4.so:system/lib/hw/sensors.exynos4.so \
     vendor/lenovo/stuttgart/proprietary/system/lib/hw/camera.smdk4x12.so:system/lib/hw/camera.smdk4x12.so \
     vendor/lenovo/stuttgart/proprietary/system/lib/hw/gralloc.smdk4x12.so:system/lib/hw/gralloc.smdk4x12.so \
     vendor/lenovo/stuttgart/proprietary/system/lib/libSEC_OMX_Resourcemanager.so:system/lib/libSEC_OMX_Resourcemanager.so \
     vendor/lenovo/stuttgart/proprietary/system/lib/libfimc.so:system/lib/libfimc.so \
+    vendor/lenovo/stuttgart/proprietary/system/lib/libmediayamaha_jni.so:system/lib/libmediayamaha_jni.so \
     vendor/lenovo/stuttgart/proprietary/system/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
     vendor/lenovo/stuttgart/proprietary/system/lib/libLeImageLightness.so:system/lib/libLeImageLightness.so \
     vendor/lenovo/stuttgart/proprietary/system/lib/omx/libOMX.SEC.M4V.Decoder.so:system/lib/omx/libOMX.SEC.M4V.Decoder.so \
@@ -82,9 +146,15 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/stuttgart/proprietary/system/lib/libMali.so:system/lib/libMali.so \
     vendor/lenovo/stuttgart/proprietary/system/lib/libion.so:system/lib/libion.so \
     vendor/lenovo/stuttgart/proprietary/system/lib/modules/bcmdhd.ko:system/lib/modules/bcmdhd.ko \
+    vendor/lenovo/stuttgart/proprietary/system/lib/libymc_dtmf.so:system/lib/libymc_dtmf.so \
+    vendor/lenovo/stuttgart/proprietary/system/lib/libymc_analogin.so:system/lib/libymc_analogin.so \
     vendor/lenovo/stuttgart/proprietary/system/lib/libUMP.so:system/lib/libUMP.so \
     vendor/lenovo/stuttgart/proprietary/system/lib/librapid-ril-core.so:system/lib/librapid-ril-core.so \
     vendor/lenovo/stuttgart/proprietary/system/lib/egl/libGLESv2_mali.so:system/lib/egl/libGLESv2_mali.so \
     vendor/lenovo/stuttgart/proprietary/system/lib/egl/libEGL_mali.so:system/lib/egl/libEGL_mali.so \
     vendor/lenovo/stuttgart/proprietary/system/lib/egl/libGLESv1_CM_mali.so:system/lib/egl/libGLESv1_CM_mali.so \
-    vendor/lenovo/stuttgart/proprietary/system/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so
+    vendor/lenovo/stuttgart/proprietary/system/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
+    vendor/lenovo/stuttgart/proprietary/system/lib/libymc_codecctrl.so:system/lib/libymc_codecctrl.so \
+    vendor/lenovo/stuttgart/proprietary/system/lib/libasound.so:system/lib/libasound.so \
+    vendor/lenovo/stuttgart/proprietary/system/lib/libymc_config.so:system/lib/libymc_config.so
+
