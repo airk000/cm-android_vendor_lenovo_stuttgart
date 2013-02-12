@@ -127,7 +127,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/stuttgart/proprietary/system/lib/hw/gps.exynos4.so:system/lib/hw/gps.exynos4.so \
     vendor/lenovo/stuttgart/proprietary/system/lib/hw/lights.smdk4x12.so:system/lib/hw/lights.smdk4x12.so \
     vendor/lenovo/stuttgart/proprietary/system/lib/hw/hwcomposer.exynos4.so:system/lib/hw/hwcomposer.exynos4.so \
-    vendor/lenovo/stuttgart/proprietary/system/lib/hw/audio.primary.stuttgart.so:system/lib/hw/audio.primary.stuttgart.so \
+    vendor/lenovo/stuttgart/proprietary/system/lib/hw/audio.primary.smdk4x12.so:system/lib/hw/audio.primary.smdk4x12.so \
     vendor/lenovo/stuttgart/proprietary/system/lib/hw/sensors.exynos4.so:system/lib/hw/sensors.exynos4.so \
     vendor/lenovo/stuttgart/proprietary/system/lib/hw/camera.smdk4x12.so:system/lib/hw/camera.smdk4x12.so \
     vendor/lenovo/stuttgart/proprietary/system/lib/hw/gralloc.smdk4x12.so:system/lib/hw/gralloc.smdk4x12.so \
